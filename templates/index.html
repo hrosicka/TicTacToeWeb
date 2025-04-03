@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <p>Current Player: {{ current_player }}</p>
+    <div class="board">
+        {% for i in range(9) %}
+        <form method="post" class="cell">
+            <input type="hidden" name="index" value="{{ i }}">
+            <button type="submit" {% if board[i] != '' or winner %}disabled{% endif %}>{{ board[i] }}</button>
+        </form>
+        {% endfor %}
+    </div>
+    {% if winner %}
+    <p>{% if winner == 'Tie' %}It's a tie!{% else %}{{ winner }} wins!{% endif %}</p>
+    {% endif %}
+    <form method="get">
+        <button type="submit">Reset Game</button>
+    </form>
+</body>
+</html>
