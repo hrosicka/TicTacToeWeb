@@ -6,20 +6,16 @@
 </head>
 <body>
     <h1>Tic Tac Toe</h1>
-    <p>Current Player: {{ current_player }}</p>
+    <p id="currentPlayer">Current Player: {{ current_player }}</p>
     <div class="board">
         {% for i in range(9) %}
-        <form method="post" class="cell">
-            <input type="hidden" name="index" value="{{ i }}">
-            <button type="submit" {% if board[i] != '' or winner %}disabled{% endif %}>{{ board[i] }}</button>
-        </form>
+        <div class="cell" data-index="{{ i }}">
+            {{ board[i] }}
+        </div>
         {% endfor %}
     </div>
-    {% if winner %}
-    <p>{% if winner == 'Tie' %}It's a tie!{% else %}{{ winner }} wins!{% endif %}</p>
-    {% endif %}
-    <form method="get">
-        <button type="submit">Reset Game</button>
-    </form>
+    <p id="winnerMessage">{% if winner %}{{ winner }}{% endif %}</p>
+    <button id="resetButton">Reset Game</button>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
