@@ -11,9 +11,11 @@ body {
 }
 
 h1 {
-    color: #ffcc00; /* Výrazná žlutá pro nadpis */
+    color: #ffcc00;
     margin-top: 2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Press Start 2P', cursive; /* Aplikace fontu */
+    font-size: 2.8em; /* Zvětšení fontu */
 }
 
 .board {
@@ -38,23 +40,23 @@ h1 {
     cursor: pointer;
     transition: transform 0.2s ease-in-out, background-color 0.3s ease-in-out;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.2); /* Světlejší pozadí buněk */
+    background-color: #333333;
     border: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .cell:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #010101;
     transform: scale(1.05);
 }
 
 .cell.x {
-    color: #00bfff; /* Jasná modrá pro X */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    color: #ff6262;
+    font-weight: bold;
 }
 
 .cell.o {
-    color: #ff4500; /* Jasná oranžová pro O */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    color: #6262ff;
+    font-weight: bold;
 }
 
 .cell.disabled {
