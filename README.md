@@ -52,5 +52,5 @@ http://localhost:5000
 4. If all cells are filled and no player has won, the game ends in a draw.
 
 ## 📸 Screenshots
-
+![](https://github.com/hrosicka/TicTacToeWeb/blob/master/doc/tictactoe.PNG)
 
