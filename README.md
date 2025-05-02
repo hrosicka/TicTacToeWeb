@@ -26,3 +26,31 @@ Follow these steps to run the project on your machine:
 ```bash
 git clone https://github.com/hrosicka/TicTacToeWeb.git
 ```
+
+2. Navigate to the project directory
+
+```bash
+cd TicTacToeWeb
+```
+
+3. Start the server
+
+```bash
+python app.py
+```
+
+4. Open your browser and visit
+
+```bash
+http://localhost:5000
+```
+
+## 🌟 How to Play
+1. The game board has 9 cells arranged in a 3x3 grid.
+2. Players take turns marking a cell with either ❌ or ⭕.
+3. The first player to align three of their marks (horizontally, vertically, or diagonally) wins.
+4. If all cells are filled and no player has won, the game ends in a draw.
+
+## 📸 Screenshots
+
+
