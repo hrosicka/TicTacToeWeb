@@ -1,5 +1,9 @@
 # Tic Tac Toe Web
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/hrosicka/TicTacToeWeb)](https://github.com/hrosicka/TicTacToeWeb/commits/main)
+
 Feeling nostalgic? Relive the joy of childhood with this Python implementation of ❌⭕ Tic Tac Toe.
 
 ## 📝 Description
