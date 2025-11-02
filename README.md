@@ -10,6 +10,18 @@ Feeling nostalgic? Relive the joy of childhood with this Python implementation o
 
 ---
 
+## 🧭 Table of Contents
+* [📝 Description](#-description)
+* [🎮 Features](#-features)
+* [🛠️ Technologies Used](#️-technologies-used)
+* [🚀 How to Run Locally](#-how-to-run-locally)
+* [🌟 How to Play](#-how-to-play)
+* [📸 Screenshots](#-screenshots)
+* [👩‍💻 Author](#author-link)
+* [📝 License](#-license)
+
+---
+
 ## 📝 Description
 Tic Tac Toe Web is a web-based implementation of the classic game Tic Tac Toe (Noughts and Crosses).
 Built using Python, CSS, JavaScript, and HTML, this project allows you to enjoy the timeless fun of Tic Tac Toe right in your browser.
@@ -74,6 +86,7 @@ http://localhost:5000
 
 ---
 
+<a name="author-link"></a>
 ## 👩‍💻 Author
 
 Lovingly crafted by [Hanka Robovska](https://github.com/hrosicka) 👩‍🔬
