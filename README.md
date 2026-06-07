@@ -1,10 +1,35 @@
 # Tic Tac Toe Web
 
-![Stars](https://img.shields.io/github/stars/hrosicka/TicTacToeWeb)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
-![Game](https://img.shields.io/badge/Game-TicTacToeWeb-red?logo=python)
-[![GitHub last commit](https://img.shields.io/github/last-commit/hrosicka/TicTacToeWeb)](https://github.com/hrosicka/TicTacToeWeb/commits/main)
+<p align="left">
+  <!-- Repository Status -->
+  <a href="https://github.com/hrosicka/TicTacToeWeb/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/hrosicka/TicTacToeWeb?style=for-the-badge&color=8AB4F8&logo=github" alt="Contributors">
+  </a>
+  <a href="https://github.com/hrosicka/TicTacToeWeb/stargazers">
+    <img src="https://img.shields.io/github/stars/hrosicka/TicTacToeWeb?style=for-the-badge&color=8AB4F8&logo=github" alt="Stars">
+  </a>
+  <a href="https://github.com/hrosicka/TicTacToeWeb/network/members">
+    <img src="https://img.shields.io/github/forks/hrosicka/TicTacToeWeb?style=for-the-badge&color=8AB4F8&logo=github" alt="Forks">
+  </a>
+  <a href="https://github.com/hrosicka/TicTacToeWeb/commits/main">
+    <img src="https://img.shields.io/github/last-commit/hrosicka/TicTacToeWeb?style=for-the-badge&color=8AB4F8&logo=github" alt="Last Commit">
+  </a>
+  <br>
+  
+  <!-- Technology & Gameplay -->
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/python-v3.8%2B-FFE873?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python">
+  </a>
+  <img src="https://img.shields.io/badge/Type-Web_Game-F4B400?style=for-the-badge&logo=game-developer" alt="Game Type">
+  <img src="https://img.shields.io/badge/UX-Two--Player-EA4335?style=for-the-badge&logo=users" alt="UX Mode">
+  
+  <br>
+  
+  <!-- License -->
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-34A853?style=for-the-badge&logo=opensourceinitiative" alt="License">
+  </a>
+</p>
 
 Feeling nostalgic? Relive the joy of childhood with this Python implementation of ❌⭕ Tic Tac Toe.
 
