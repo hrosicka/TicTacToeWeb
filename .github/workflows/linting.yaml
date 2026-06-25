@@ -1,0 +1,23 @@
+# .github/workflows/linting.yaml
+name: Code Quality
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install flake8 black isort
+      - name: Run Black (formatting check)
+        run: black --check .
+      - name: Run isort (import sorting check)
+        run: isort --check-only .
+      - name: Run Flake8 (linting)
+        run: flake8 . --max-line-length=100 --ignore=E501,W503
