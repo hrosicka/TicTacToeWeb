@@ -1,5 +1,6 @@
-from flask import Flask, render_template, request, jsonify
 import random
+
+from flask import Flask, jsonify, render_template, request
 
 app = Flask(__name__)
 
@@ -96,7 +97,7 @@ def index():
 
 
 @app.route("/move", methods=["POST"])
-def make_move():
+def move():
     """
     Handles player moves via POST requests.
     Receives the cell index from the request, makes the move, and returns the updated game state as JSON.
