@@ -89,3 +89,25 @@ button:hover {
     color: #ffffff; /* Bílý text pro maximální kontrast */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+    .board {
+        grid-template-columns: repeat(3, 80px);
+        gap: 10px;
+    }
+    
+    .cell {
+        width: 80px;
+        height: 80px;
+        font-size: 2em;
+    }
+    
+    button {
+        width: 280px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+}
