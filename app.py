@@ -1,8 +1,16 @@
 import random
 
 from flask import Flask, jsonify, render_template, request
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 app = Flask(__name__)
+
+limiter = Limiter(
+    app=app,
+    key_func=get_remote_address,
+    default_limits=["200 per day", "50 per hour"],
+)
 
 
 class TicTacToe:
@@ -97,6 +105,7 @@ def index():
 
 
 @app.route("/move", methods=["POST"])
+@limiter.limit("100/hour")
 def move():
     """
     Handles player moves via POST requests.
