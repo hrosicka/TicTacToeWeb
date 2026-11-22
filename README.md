@@ -1,33 +1,32 @@
 # Tic Tac Toe Web
 
-<p align="left">
+<p align="center">
   <a href="https://github.com/hrosicka/TicTacToeWeb/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/hrosicka/TicTacToeWeb?style=for-the-badge&color=8AB4F8&logo=github" alt="Contributors">
+    <img src="https://img.shields.io/github/contributors/hrosicka/TicTacToeWeb?style=for-the-badge&color=4F8EF7&logo=github&logoColor=white" alt="Contributors">
   </a>
   <a href="https://github.com/hrosicka/TicTacToeWeb/stargazers">
-    <img src="https://img.shields.io/github/stars/hrosicka/TicTacToeWeb?style=for-the-badge&color=8AB4F8&logo=github" alt="Stars">
+    <img src="https://img.shields.io/github/stars/hrosicka/TicTacToeWeb?style=for-the-badge&color=4F8EF7&logo=starship&logoColor=white" alt="Stars">
   </a>
   <a href="https://github.com/hrosicka/TicTacToeWeb/network/members">
-    <img src="https://img.shields.io/github/forks/hrosicka/TicTacToeWeb?style=for-the-badge&color=8AB4F8&logo=github" alt="Forks">
+    <img src="https://img.shields.io/github/forks/hrosicka/TicTacToeWeb?style=for-the-badge&color=4F8EF7&logo=git&logoColor=white" alt="Forks">
   </a>
   <a href="https://github.com/hrosicka/TicTacToeWeb/commits/main">
-    <img src="https://img.shields.io/github/last-commit/hrosicka/TicTacToeWeb?style=for-the-badge&color=8AB4F8&logo=github" alt="Last Commit">
+    <img src="https://img.shields.io/github/last-commit/hrosicka/TicTacToeWeb?style=for-the-badge&color=4F8EF7&logo=githubactions&logoColor=white" alt="Last Commit">
   </a>
   <a href="https://github.com/hrosicka/TicTacToeWeb/actions/workflows/linting.yaml">
-    <img src="https://img.shields.io/github/actions/workflow/status/hrosicka/TicTacToeWeb/linting.yaml?style=for-the-badge&color=8AB4F8&label=Linting&logo=githubactions&logoColor=white" alt="Linting Status">
+    <img src="https://img.shields.io/github/actions/workflow/status/hrosicka/TicTacToeWeb/linting.yaml?style=for-the-badge&label=Linting&logo=githubactions&logoColor=white" alt="Linting Status">
   </a>
   <br>
-  
+
   <a href="https://www.python.org/">
-    <img src="https://img.shields.io/badge/python-v3.8%2B-FFE873?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python">
+    <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=FFE873" alt="Python">
   </a>
-  <img src="https://img.shields.io/badge/Type-Web_Game-F4B400?style=for-the-badge&logo=game-developer" alt="Game Type">
-  <img src="https://img.shields.io/badge/UX-Two--Player-EA4335?style=for-the-badge&logo=users" alt="UX Mode">
-  
+  <img src="https://img.shields.io/badge/Type-Web%20Game-F59E0B?style=for-the-badge&logo=game-developer&logoColor=white" alt="Game Type">
+  <img src="https://img.shields.io/badge/UX-Two--Player-EF4444?style=for-the-badge&logo=users&logoColor=white" alt="UX Mode">
   <br>
-  
+
   <a href="LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-34A853?style=for-the-badge&logo=opensourceinitiative" alt="License">
+    <img src="https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="License">
   </a>
 </p>
 
